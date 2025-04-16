@@ -26,6 +26,8 @@ struct Task {
 
 struct CTAResult {
     vector<vector<vector<double>>> rewardMatrices;
+    vector<vector<vector<double>>> disMatrices;
+    vector<vector<string>> assignmentResult;
 };
 
 CTAResult CTA(vector<Agent>& agents, vector<Task>& tasks);
